@@ -1,0 +1,41 @@
+name: strawberry-light
+author: haystackandroid (Posting port)
+description: Posting theme based on the Strawberry "strawberry-light" palette.
+homepage: https://github.com/haystackandroid/strawberry
+
+# Core UI colors (Posting)
+primary: '#d46a84'    # pink (object names vibe)
+secondary: '#468dd4'  # blue (constants vibe)
+accent: '#a26fbf'     # purple (special text vibe)
+
+background: '#fff0f7' # base lightest
+surface: '#f0dde6'    # base panel
+
+error: '#f55050'      # red accent
+success: '#219e21'    # green accent
+warning: '#d4ac35'    # yellow accent
+
+# Optional fine control
+text_area:
+  cursor: 'reverse'
+  cursor_line: 'underline'
+  selection: 'reverse'
+  gutter: 'bold #8a7680'
+  matched_bracket: 'black on #1b9e9e'
+
+url:
+  base: 'italic #468dd4'
+  protocol: 'bold #75616b'
+
+syntax:
+  json_key: 'italic #d46a84'
+  json_number: '#468dd4'
+  json_string: '#219e21'
+  json_boolean: '#468dd4'
+  json_null: 'underline #e06a26'
+
+method:
+  get: 'underline #468dd4'
+  post: 'bold #219e21'
+  put: 'italic #d4ac35'
+  delete: 'strikethrough #f55050'
